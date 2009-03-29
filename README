@@ -10,6 +10,16 @@ of Erlang/OTP (Currently R13A).
 
 SEE: http://www.sics.se/~joe/ubf/site/home.html
 
-Updating and organizing the remainder of these files is a work in progress.
+What you need to know:
+
+"UBF(A) is a data transport format, roughly equivalent to well-formed XML."
+
+To use this module, you need to know nothing more than:
+
+ubf:encode(Term).
+ubf:decode(Ubf).
+
+Updating and organizing the remainder of these files especially contracts is a
+work in progress.
 
 /sd
